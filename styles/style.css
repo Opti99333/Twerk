@@ -19,6 +19,7 @@ body{
   background:transparent;           /* видно видеофон */
   padding-top: calc(var(--marquee-h) + 86px); /* не прятать контент под фикс. верхом */
   filter: saturate(calc(1 + var(--shake) * 0.08));
+  overflow-y: hidden;
 }
 
 /* лёгкий «глоу» поверх видеофона */
